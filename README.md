@@ -69,3 +69,21 @@ This project focuses on compressing echography scan images using Principal Compo
 - Original and reconstructed channels are displayed side by side for comparison.
 - The reconstructed image is formed by merging the reconstructed channels.
 
+# Music Genre Classification Project
+
+## Overview
+This project focuses on developing a machine learning model to classify music genres. Using audio features extracted from music samples, the model aims to accurately predict the genre of a given piece of music. The classification process involves data loading, preprocessing, model training, and evaluation.
+
+## Key Steps
+1. **Data Loading**: The project starts by loading a dataset containing audio features extracted from music samples. These features serve as the input for the classification model.
+
+2. **Data Preprocessing**: The loaded data is preprocessed to prepare it for training the machine learning model. This involves tasks such as encoding labels, normalizing features, and splitting the dataset into training and testing sets.
+
+3. **Model Training**: A machine learning model, such as a neural network, is trained using the preprocessed data. The model learns to classify music genres based on the provided features.
+
+4. **Evaluation**: The trained model is evaluated using the testing dataset to assess its performance in classifying music genres. Metrics such as accuracy, precision, and recall are used to measure the model's effectiveness.
+
+5. **Feature Extraction**: Additionally, the project may involve extracting more complex features from the audio data to enhance the model's performance. Techniques such as MFCC (Mel-Frequency Cepstral Coefficients) extraction can be employed for this purpose.
+
+
+
