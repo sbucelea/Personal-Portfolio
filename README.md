@@ -28,21 +28,32 @@ Text Generation: Use the trained model to generate text by providing an initial 
 ## Echography Scan Image Compression with PCA
 
 Overview
+
 This project focuses on compressing echography scan images using Principal Component Analysis (PCA). Echography scan images often contain a vast amount of data, making efficient compression techniques crucial for storage and transmission.
 
 Implementation
+
 Importing Necessary Modules
-OpenCV (cv2) for image processing
-NumPy (np) for numerical operations
-Matplotlib (plt) for visualization
-Scikit-learn's PCA for performing Principal Component Analysis
+- OpenCV (cv2) for image processing
+- NumPy (np) for numerical operations
+- Matplotlib (plt) for visualization
+- Scikit-learn's PCA for performing Principal Component Analysis
+
+  
 Loading and Preprocessing Images
+
 Images are loaded and split into their RGB channels.
 Each channel is normalized to the range [0, 1].
+
+
 PCA Compression
 PCA is applied separately to each RGB channel.
+
+
 The number of components for PCA compression is fixed.
 Reduced components are used to reconstruct the channels.
+
 Result Visualization
+
 Original and reconstructed channels are displayed side by side for comparison.
 The reconstructed image is formed by merging the reconstructed channels.
