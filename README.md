@@ -23,13 +23,3 @@ Data Preparation: Provide a dataset containing the text you wish to train the mo
 Model Training: Run the script to train the LSTM model on the provided dataset. Adjust parameters such as batch size, epochs, and model architecture as needed.
 
 Text Generation: Use the trained model to generate text by providing an initial input text and specifying the desired length of the generated text. Adjust the creativity parameter to control the diversity of generated text.
-
-Dependencies
-Python 3.x
-TensorFlow
-NumPy
-NLTK (for tokenization)
-References
-TensorFlow Documentation
-NLTK Documentation
-
